@@ -1,6 +1,6 @@
 {
   "name": "choma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Random ordering for mocha",
   "main": "index.js",
   "scripts": {
