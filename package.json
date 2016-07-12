@@ -1,0 +1,31 @@
+{
+  "name": "choma",
+  "version": "0.0.0",
+  "description": "Random ordering for mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennym/choma.git"
+  },
+  "keywords": [
+    "mocha",
+    "tdd",
+    "testing",
+    "stateless"
+  ],
+  "author": "Leonard Martin <hello@lennym.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lennym/choma/issues"
+  },
+  "homepage": "https://github.com/lennym/choma#readme",
+  "dependencies": {
+    "lodash.shuffle": "^4.0.0"
+  },
+  "peerDependencies": {
+    "mocha": ">=2"
+  }
+}
