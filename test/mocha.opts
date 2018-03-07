@@ -1,0 +1,1 @@
+test --require . --reporter list
