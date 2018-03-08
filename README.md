@@ -21,3 +21,12 @@ or by adding a line to `mocha.opts`
 --require choma
 ```
 
+## Seeds
+
+The seed used to generate the random order is output to the console when running your test suite.
+
+If you would like to re-use a seed to re-test a particular execution order, you can set an environment variable of `CHOMA_SEED`.
+
+```shell
+> CHOMA_SEED=myseed mocha ./tests/ --require choma
+```

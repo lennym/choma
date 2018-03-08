@@ -5,8 +5,9 @@ const run = Mocha.prototype.run;
 const each = Mocha.Suite.prototype.eachTest;
 
 const prng = (function() {
-  let seed = process.env.SEED || createSeed(10);
-  console.log('SEED=' + seed + ' mocha');
+  const seed = process.env.CHOMA_SEED || createSeed(10);
+  console.log(`choma: randomising test order with seed: ${seed}`);
+  console.log(`choma: to re-use this ordering, run tests with CHOMA_SEED=${seed}`);
   return seedrandom(seed);
 }());
 
