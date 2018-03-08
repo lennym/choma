@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/lennym/choma#readme",
   "dependencies": {
-    "lodash.shuffle": "^4.0.0"
+    "seedrandom": "^2.4.3"
+  },
+  "devDependencies": {
+    "mocha": ">=2"
   },
   "peerDependencies": {
     "mocha": ">=2"
