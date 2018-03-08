@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/lennym/choma#readme",
   "dependencies": {
+    "chalk": "^2.3.2",
     "seedrandom": "^2.4.3"
   },
   "devDependencies": {

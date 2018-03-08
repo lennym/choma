@@ -1,13 +1,13 @@
 const Mocha = require('mocha');
 const seedrandom = require('seedrandom');
+const color = require('chalk');
 
 const run = Mocha.prototype.run;
 const each = Mocha.Suite.prototype.eachTest;
 
 const prng = (function() {
   const seed = process.env.CHOMA_SEED || createSeed(10);
-  console.log(`choma: randomising test order with seed: ${seed}`);
-  console.log(`choma: to re-use this ordering, run tests with CHOMA_SEED=${seed}`);
+  console.log(`${color.grey('choma')}: to re-use this ordering, run tests with ${color.yellow('CHOMA_SEED='+seed)}`);
   return seedrandom(seed);
 }());
 
