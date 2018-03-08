@@ -7,7 +7,7 @@ const each = Mocha.Suite.prototype.eachTest;
 
 const prng = (function() {
   const seed = process.env.CHOMA_SEED || createSeed(10);
-  console.log(`${color.grey('choma')}: to re-use this ordering, run tests with ${color.yellow('CHOMA_SEED='+seed)}`);
+  console.log(`${color.grey('choma')}: to re-use this ordering, run tests with ${color.yellow('CHOMA_SEED=' + seed)}`);
   return seedrandom(seed);
 }());
 
