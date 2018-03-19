@@ -1,3 +1,5 @@
+"use strict";
+
 const Mocha = require('mocha');
 const seedrandom = require('seedrandom');
 const color = require('chalk');
