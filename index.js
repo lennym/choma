@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const Mocha = require('mocha');
 const seedrandom = require('seedrandom');
