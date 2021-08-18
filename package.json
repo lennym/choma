@@ -4,7 +4,8 @@
   "description": "Random ordering for mocha",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . --config lennym"
+    "lint": "eslint . --config lennym",
+    "test": "mocha test --require index.js"
   },
   "repository": {
     "type": "git",
